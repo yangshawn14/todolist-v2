@@ -15,6 +15,7 @@ app.use(express.static("public"));
 
 // mongodb://localhost:27017
 
+// mongodb server with username and password
 mongoose.connect("mongodb+srv://yangshawn14:test123@cluster0.88crimc.mongodb.net/todolistDB");
 
 const itemsSchema = {
